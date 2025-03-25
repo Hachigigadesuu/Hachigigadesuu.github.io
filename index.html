@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ファイル配布サイト</title>
+    <title>(　ﾟДﾟ)</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .sns-link {
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>ファイル配布サイト</h1>
-        <p>必要なファイルをダウンロードしてください。</p>
+        <h1>配布置き場</h1>
+        <p>なんか作ったらここに投げます</p>
+		<small>デザインが適当なのは許して...</small>
     </header>
 
     <main>
         <section>
-            <h2>ダウンロードファイル一覧</h2>
-            <ul>
-                <li>
-                    <h3>ファイル1</h3>
-                    <p>ファイルの説明をここに書きます</p>
-                    <a href="./files/sample1.pdf" download>ダウンロード</a>
-                </li>
-                <li>
-                    <h3>ファイル2</h3>
-                    <p>ファイルの説明をここに書きます</p>
-                    <a href="./files/sample2.zip" download>ダウンロード</a>
-                </li>
-            </ul>
+            <h2>ファイル一覧</h2>
+            <div>
+                <h3>ファイル1</h3>
+                <p>ファイルの説明をここに書きます</p>
+                <a href="./files/sample1.pdf" download>ダウンロード</a>
+            </div>
+            <div>
+                <h3>ファイル2</h3>
+                <p>ファイルの説明をここに書きます</p>
+                <a href="./files/sample2.zip" download>ダウンロード</a>
+            </div>
         </section>
 
         <section>
             <h2>注意事項</h2>
-            <ul>
-                <li>再配布は禁止です。</li>
-            </ul>
+            <p>再配布は禁止です。</p>
+        </section>
+        <section>
+            <h2>SNSリンク集</h2>
+            <a href="https://github.com/Hachigigadesuu" target="_blank" class="sns-link">
+                <i class="fa-brands fa-github fa-2x"></i><br>GitHub
+            </a>
+            <a href="https://www.youtube.com/@KWNNTDID1" target="_blank" class="sns-link">
+                <i class="fa-brands fa-youtube fa-2x"></i><br>YouTube
+            </a>
+			<a href="https://soundcloud.com/wqazfpcxqaxg" target="_blank" class="sns-link">
+                <i class="fa-brands fa-soundcloud fa-2x"></i><br>SoundCloud
+            </a>
         </section>
     </main>
 </body>
